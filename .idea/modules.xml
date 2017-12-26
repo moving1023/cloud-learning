@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-learning.iml" filepath="$PROJECT_DIR$/cloud-learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" filepath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-file-service/spring-cloud-file-service.iml" filepath="$PROJECT_DIR$/spring-cloud-file-service/spring-cloud-file-service.iml" />
     </modules>
   </component>
 </project>

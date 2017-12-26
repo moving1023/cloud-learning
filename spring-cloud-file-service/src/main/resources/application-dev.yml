@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: file-service
+
+server:
+  port: 4567
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
