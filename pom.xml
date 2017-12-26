@@ -12,6 +12,7 @@
         <module>spring-cloud-eureka</module>
         <module>spring-cloud-config</module>
         <module>spring-cloud-file-service</module>
+        <module>spring-cloud-user-service</module>
     </modules>
 
     <properties>

@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: user-service
+  data:
+    rest:
+      base-path: /api
+
+server:
+  port: 6786
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+
