@@ -4,7 +4,9 @@ spring:
   data:
     rest:
       base-path: /api
-
+  h2:
+    console:
+      enabled: true
 server:
   port: 6786
 

@@ -1,9 +1,6 @@
 package com.liyl.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.io.Serializable;
 
 /**
@@ -13,6 +10,7 @@ import java.io.Serializable;
  * @Modified by .
  */
 @Entity
+//@Table(name = "T_USER")
 public class User implements Serializable{
 
 	@Id
