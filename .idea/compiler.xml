@@ -22,19 +22,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="spring-cloud-api-gateway" />
         <module name="spring-cloud-config" />
         <module name="spring-cloud-erueka" />
         <module name="spring-cloud-eureka" />
         <module name="spring-cloud-file-service" />
+        <module name="spring-cloud-ribbon" />
         <module name="spring-cloud-user-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="cloud-learning" target="1.8" />
+      <module name="spring-cloud-api-gateway" target="1.8" />
       <module name="spring-cloud-config" target="1.8" />
       <module name="spring-cloud-erueka" target="1.6" />
       <module name="spring-cloud-eureka" target="1.8" />
       <module name="spring-cloud-file-service" target="1.8" />
+      <module name="spring-cloud-ribbon" target="1.8" />
       <module name="spring-cloud-user-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>

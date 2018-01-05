@@ -24,13 +24,21 @@ public class UserController {
 	@ApiOperation(value = "获取用户列表", notes = "可以根据此来获取全部用户信息")
 	@RequestMapping(path = "/", method = RequestMethod.GET)
 	public List<User> list() {
-		return Lists.newArrayList(new User());
+		User user = new User();
+		user.setId(1L);
+		user.setName("moving1023");
+		user.setAge(27);
+		return Lists.newArrayList(user);
 	}
 
 	@ApiOperation(value = "根据ID获取用户信息", notes = "用于查看用户的详细信息")
 	@ApiImplicitParam(name = "id", value = "用户ID", required = true, dataType = "Long", paramType = "path")
 	@RequestMapping(path = "/{id}", method = RequestMethod.GET)
 	public User findById(@PathVariable long id) {
-		return new User();
+		User user = new User();
+		user.setId(id);
+		user.setName("moving1023");
+		user.setAge(28);
+		return user;
 	}
 }

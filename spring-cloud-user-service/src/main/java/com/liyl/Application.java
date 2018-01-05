@@ -12,7 +12,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @Modified by .
  */
 @SpringBootApplication
-//@EnableDiscoveryClient
+@EnableDiscoveryClient
 @EnableSwagger2
 public class Application {
 	public static void main(String[] args) {
